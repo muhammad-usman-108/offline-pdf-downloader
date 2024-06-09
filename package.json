@@ -1,0 +1,42 @@
+{
+  "name": "offline-pdf-downloader",
+  "version": "1.0.0",
+  "description": "A utility to download and save web page content as a PDF for offline use.",
+  "main": "dist/offlinePdfDownloader.js",
+  "types": "dist/offlinePdfDownloader.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhammad-usman-108/offline-pdf-downloader.git"
+  },
+  "keywords": [
+    "offline",
+    "download",
+    "pdf",
+    "content",
+    "storage",
+    "localforage",
+    "axios",
+    "jspdf",
+    "typescript"
+  ],
+  "author": "muhammad-usman-108",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "@types/node": "^16.11.7",
+    "@types/jest": "^26.0.24",
+    "@types/localforage": "^1.9.0",
+    "@types/jspdf": "^2.0.0",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "localforage": "^1.10.0",
+    "jspdf": "^2.3.1"
+  }
+}
