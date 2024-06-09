@@ -27,16 +27,14 @@
   "author": "muhammad-usman-108",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.4.4",
-    "@types/node": "^16.11.7",
-    "@types/jest": "^26.0.24",
-    "@types/localforage": "^1.9.0",
     "@types/jspdf": "^2.0.0",
-    "jest": "^26.6.3"
+    "@types/localforage": "^0.0.34",
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
-    "axios": "^0.24.0",
-    "localforage": "^1.10.0",
-    "jspdf": "^2.3.1"
+    "axios": "^1.7.2",
+    "jspdf": "^2.5.1",
+    "localforage": "^1.10.0"
   }
 }
